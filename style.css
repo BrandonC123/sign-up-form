@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+    --main-color: #596d48;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 80%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column, .input {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar-image {
+    width: 100vh;
+}
+
+.action-btn {
+    text-decoration: none;
+    color: white;
+    background-color: var(--main-color);
+    padding: 0.75em 2em;
+    border-radius: 8px;
+}
+
+.accent-text {
+    color: var(--main-color);
+}
+
+.sign-up-form-left-col, .sign-up-form-right-col  {
+    gap: 15px;
+}
+
+.sign-up-form-content {
+    margin-bottom: 40px;
+}
