@@ -9,11 +9,15 @@
     </head>
     <body>
         <div class="overall-container row">
-            <div class="side-bar-image">
-                <img src="./img/side-bar-image.avif" />
+            <div class="side-bar-container">
+                <img class="side-bar-image" src="./img/side-bar-image.avif" />
+                <div class="logo-container row">
+                    <img class="logo" src="./img/logo.png" alt="logo of odin">
+                    <h1 class="logo-text">ODIN</h1>
+                </div>
             </div>
-            <section class="sign-up-section">
-                <div class="container sign-up-text">
+            <section class="sign-up-form-section column">
+                <div class="container sign-up-form-text">
                     <h1>
                         This is not a real online service! You know you need
                         something like this in your life to help you realize
@@ -22,46 +26,50 @@
                     </h1>
                     <h1>You <em>know</em> you want to.</h1>
                 </div>
-                <div class="sign-up-form">
-                    <h2 class="sign-up-form-title">Let's do this</h2>
-                    <form class="sign-up-form column" action="">
-                        <div class="sign-up-form-content row">
-                            <div class="sign-up-form-left-col column">
-                                <div class="input">
-                                    <label for="">FIRST NAME</label>
-                                    <input type="text" name="" id="" />
+                <div class="sign-up-form-container">
+                    <form class="sign-up-form" action="">
+                        <div class="sign-up-form-content">
+                            <h2 class="sign-up-form-title">Let's do this</h2>
+                            <div class="sign-up-columns row">
+                                <div class="sign-up-form-left-col column col">
+                                    <div class="input">
+                                        <label for="">FIRST NAME</label>
+                                        <input type="text" name="" id="" />
+                                    </div>
+                                    <div class="input">
+                                        <label for="">EMAIL</label>
+                                        <input type="email" name="" id="" />
+                                    </div>
+                                    <div class="input">
+                                        <label for="">PASSWORD</label>
+                                        <input type="password" name="" id="" />
+                                    </div>
                                 </div>
-                                <div class="input">
-                                    <label for="">EMAIL</label>
-                                    <input type="email" name="" id="" />
-                                </div>
-                                <div class="input">
-                                    <label for="">PASSWORD</label>
-                                    <input type="password" name="" id="" />
-                                </div>
-                            </div>
-                            <div class="sign-up-form-right-col column">
-                                <div class="input">
-                                    <label for="">LAST NAME</label>
-                                    <input type="text" name="" id="" />
-                                </div>
-                                <div class="input">
-                                    <label for="">PHONE NUMBER</label>
-                                    <input type="tel" name="" id="" />
-                                </div>
-                                <div class="input">
-                                    <label for="">CONFIRM PASSWORD</label>
-                                    <input type="password" name="" id="" />
+                                <div class="sign-up-form-right-col column col">
+                                    <div class="input">
+                                        <label for="">LAST NAME</label>
+                                        <input type="text" name="" id="" />
+                                    </div>
+                                    <div class="input">
+                                        <label for="">PHONE NUMBER</label>
+                                        <input type="tel" name="" id="" />
+                                    </div>
+                                    <div class="input">
+                                        <label for="">CONFIRM PASSWORD</label>
+                                        <input type="password" name="" id="" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="sign-up-form-actions">
-                            <a class="action-btn" href="#">Create Account</a>
-                            <p>
+                            <button type="submit" class="action-btn">
+                                Create Account
+                            </button>
+                            <h4>
                                 Already have an account?
                                 <a class="accent-text" href="#">Log in</a>
-                            </p>
+                            </h4>
                         </div>
                     </form>
                 </div>
