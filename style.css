@@ -2,7 +2,7 @@
 
 :root {
     --main-color: #596d48;
-    --section-spacing: 2em;
+    --section-spacing: 3em;
 }
 
 @font-face {
@@ -68,10 +68,6 @@ input {
     flex-direction: column;
 }
 
-.side-bar-image {
-    height: 100vh;
-}
-
 .action-btn {
     box-shadow: 2px 2px 2px rgb(153, 153, 153);
     border: none;
@@ -80,28 +76,31 @@ input {
     background-color: var(--main-color);
     padding: 0.75em 2.5em;
     border-radius: 8px;
+    font-size: 1;
+    font-weight: 700;
 }
 
 .accent-text {
     color: var(--main-color);
 }
 
-.overall-cotaniner {
-}
-
 .side-bar-container {
     position: relative;
-    width: 35%;
-    max-width: 550px;
 }
 
 .logo-container {
-    position: absolute;
-    width: 100%;
-    top: 30%;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    padding: 1em 0;
     background-color: rgba(0, 0, 0, .35);
+}
+
+.side-bar-image {
+    height: 100vh;
+    display: block;
 }
 
 .logo {
@@ -124,9 +123,6 @@ input {
     padding: var(--section-spacing);
 }
 
-.sign-up-form-title {
-}
-
 .sign-up-form-content {
     width: 100%;
     background-color: white;
@@ -136,7 +132,8 @@ input {
 
 .sign-up-form-left-col,
 .sign-up-form-right-col {
-    gap: 15px;
+    gap: 25px;
+    width: 25%;
 }
 
 .col + .col {
