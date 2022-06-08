@@ -43,8 +43,14 @@ input {
     border-radius: 3px;
 }
 
-input:invalid {
+.invalid {
     border: 1px solid red;
+}
+
+.requirement {
+    display: none;
+    color: rgb(207, 38, 38);
+    font-size: .75rem;
 }
 
 .container {
